@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Department xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DepartmentName>MyDepartment</DepartmentName>
+  <EmployeeList>
+    <Employee>
+      <EmployeeName>Sam Black</EmployeeName>
+    </Employee>
+    <Employee>
+      <EmployeeName>Tom Harrolds</EmployeeName>
+    </Employee>
+    <Employee>
+      <EmployeeName>John Weak</EmployeeName>
+    </Employee>
+    <Employee>
+      <EmployeeName>Sam White</EmployeeName>
+    </Employee>
+  </EmployeeList>
+</Department>
