@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -10,7 +11,9 @@ namespace JSONSerialization
     [Serializable()]
     public class Department
     {
-        public string? DepartmentName { get; set; }  
+        [JsonProperty]
+        public string? DepartmentName { get; set; }
+        [JsonProperty]
         public List<Employee>? EmployeeList { get; set; }
 
         public Department() { }
