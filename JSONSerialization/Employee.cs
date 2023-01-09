@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace JSONSerialization
 {
     [Serializable()]
-    public class Employee : ISerializable
+    public class Employee
     {
         public string EmployeeName { get; set; }
         public Employee() { }
@@ -16,11 +16,6 @@ namespace JSONSerialization
         public Employee(string employeeName = "No name")
         {
             EmployeeName = employeeName;
-        }
-
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Name", EmployeeName);
         }
     }
 }
