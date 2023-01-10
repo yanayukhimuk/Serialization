@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLSerialization", "XMLSeri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONSerialization", "JSONSerialization\JSONSerialization.csproj", "{D2754D16-1E8F-4783-BDAC-B723CE8104A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCustomSerializer", "MyCustomSerializer\MyCustomSerializer.csproj", "{9DD72A7E-FDE7-4672-B340-5A290CFDF26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCustomSerializer", "MyCustomSerializer\MyCustomSerializer.csproj", "{9DD72A7E-FDE7-4672-B340-5A290CFDF26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCloning", "DeepCloning\DeepCloning.csproj", "{7819C03F-C82C-458A-82C1-223266EA228A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9DD72A7E-FDE7-4672-B340-5A290CFDF26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DD72A7E-FDE7-4672-B340-5A290CFDF26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DD72A7E-FDE7-4672-B340-5A290CFDF26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7819C03F-C82C-458A-82C1-223266EA228A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7819C03F-C82C-458A-82C1-223266EA228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7819C03F-C82C-458A-82C1-223266EA228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7819C03F-C82C-458A-82C1-223266EA228A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
